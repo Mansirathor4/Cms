@@ -1,11 +1,4 @@
-// const generateUserId = () => {
-//     const prefix = 'USER';
-//     const randomNum = Math.floor(100000 + Math.random() * 900000);
-//     return `${prefix}${randomNum}`;
-//   };
-//   module.exports = generateUserId;
 
-// backend/utils/generateUserId.js
 
 const generateUserId = (role) => {
   let prefix = '';

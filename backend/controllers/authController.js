@@ -2,7 +2,7 @@ const User = require('../models/user');
 const generateUserId = require('../utils/generateUserId');
 const jwt = require('jsonwebtoken');
 const sendMail = require('../utils/sendMail');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'supersecretkey';
 
