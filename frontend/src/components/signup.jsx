@@ -19,7 +19,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/signup", form);
+      const res = await axios.post("http://localhost:5000/api/auth/register", form);
       setMessage("Signup successful! Check your email for User ID.");
     } catch (err) {
       setMessage("Signup failed. Please try again.");
